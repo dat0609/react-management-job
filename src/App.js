@@ -15,7 +15,7 @@ class App extends React.Component {
       }
    }
 
-   componentWillMount() {
+   componentDidMount() {
       if (localStorage && localStorage.getItem("tasks")) {
          var tasks = JSON.parse(localStorage.getItem("tasks"))
 

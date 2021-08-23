@@ -12,7 +12,7 @@ class TaskForm extends React.Component {
       }
    }
 
-   componentWillMount() {
+   componentDidMount() {
       if(this.props.task){
          this.setState({
             id: this.props.task.id,
